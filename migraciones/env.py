@@ -12,7 +12,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from db.database import Base, SQLALCHEMY_DATABASE_URL
-from db.models import Rol, User
+from db.models import Rol, User, Edificio, Piso, Ambiente, Ubicacion
 
 
 
